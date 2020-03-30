@@ -167,30 +167,30 @@ __underscore 강조__
     [구글](https://www.google.co.kr/){:target="_blank"}
     
 ## 이미지
-![대체 텍스트](/images/doge.jpg)
+![대체 텍스트](/assets/doge.jpg)
 
-![대체 텍스트](/images/doge.jpg "타이틀 옵션")
+![대체 텍스트](/assets/doge.jpg "타이틀 옵션")
 
-[![대체 텍스트](/images/doge.jpg)](https://www.google.co.kr/search?q=doge)
+[![대체 텍스트](/assets/doge.jpg)](https://www.google.co.kr/search?q=doge)
 
-![대체 텍스트](/images/doge.jpg){:width="100px" height="300px"}
+![대체 텍스트](/assets/doge.jpg){:width="100px" height="300px"}
 
-<img src="/images/doge.jpg">
+<img src="/assets/doge.jpg">
 
     <!-- 이미지 -->
-    ![대체 텍스트](/images/doge.jpg)
+    ![대체 텍스트](/assets/doge.jpg)
     
     <!-- 타이틀 속성 -->
-    ![대체 텍스트](/images/doge.jpg "타이틀 옵션")
+    ![대체 텍스트](/assets/doge.jpg "타이틀 옵션")
     
     <!-- 이미지에 링크 -->
-    [![대체 텍스트](/images/doge.jpg)](https://www.google.co.kr/search?q=doge)
+    [![대체 텍스트](/assets/doge.jpg)](https://www.google.co.kr/search?q=doge)
     
     <!-- 이미지 크기 조절 -->
-    ![대체 텍스트](/images/doge.jpg){:width="100px" height="300px"}
+    ![대체 텍스트](/assets/doge.jpg){:width="100px" height="300px"}
     
     <!-- 이미지 태그를 이용해도 됨 -->
-    <img src="/images/doge.jpg">
+    <img src="/assets/doge.jpg">
     
 ## 수평선
 123
