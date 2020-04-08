@@ -10,6 +10,19 @@ use_math: true
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/lyZQPjUT5B4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## 버블정렬이란?
+두 인접한 수를 비교해서 정렬하는 방법
+    
+    예제 : 오름차순으로 버블정렬 할때
+    10 1 5 4 8 - 5개의 수를 비교 시작
+    1 10 5 4 8 - 10과 1을 비교하여 자리를 바꿈
+    1 5 10 4 8 - 10과 5을 비교하여 자리를 바꿈
+    1 5 4 10 8 - 10과 4을 비교하여 자리를 바꿈 
+    1 5 4 8 10 - 10과 8을 비교하여 자리를 바꿈 첫번째 패스
+    1 5 4 8 10 - 1과 5를 비교하여 크지 않기 때문에 자리를 바꾸지 않음 두번째 패스
+    1 4 5 8 10 - 5과 4를 비교하여 자리를 바꿈
+    1 4 5 8 10 - 5과 8를 비교 정렬 완료 
+    
 ## 버블정렬의 특징
 - 장점
     - 구현이 간단함
