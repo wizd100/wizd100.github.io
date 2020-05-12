@@ -8,7 +8,7 @@ tags: [C, C언어, C Primer Plus, C 기초 플러스]
 use_math: true
 ---
 
-[C 기초 플러스](http://www.yes24.com/Product/Goods/57614028){:target="_blank"} 서적으로 C언어를 공부하며 정리해보았습니다.
+[C 기초 플러스](http://www.yes24.com/Product/Goods/57614028){:target="_blank"} 서적으로 C언어를 공부를 하면서 정리해보았습니다.
 
 
 ## C언어의 역사
