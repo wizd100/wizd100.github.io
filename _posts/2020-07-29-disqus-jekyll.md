@@ -40,35 +40,43 @@ Jekyll 선택
 
 ![disqus 설정5](/assets/images/20200729/disqus_setting_05.png)
 
-jekyll에 disqus에 코드삽입 방법을 알려주는 페이지 입니다
-
-jekyll에서 post를 생성할때 
-
-    
-    ---
-    layout: post
-    title:  "jekyll에 댓글기능 추가하기 ft. Disqus"
-    permalink: /:categories/:year/:month/:day/:title/
-    date:   2020-07-29 14:30:00 +0900
-    categories: posts
-    tags: [disqus, jekyll, 댓글]
-    comments: true
-    ---
-
-comments: true 이 코드를 추가하고
-
-Universal Embed Code 를 클릭을 합니다
+Configure 버튼 선택
 
 ![disqus 설정6](/assets/images/20200729/disqus_setting_06.png)
 
-_layouts/default.html
+Complete Setup 버튼 선택해서 완료
 
-```liquid
-{% if page.comments %}
-    Universal Embed Code 삽입
-{% endif %}
-```
-    
-    
-post 레이아웃 부분에 해당 코드를 삽입합니다
+![disqus 설정7](/assets/images/20200729/disqus_setting_07.png)
+
+Setting 선택
+
+![disqus 설정8](/assets/images/20200729/disqus_setting_08.png)
+
+shortname 값을 복사합니다
+
+Minimal Mistakes 테마의 경우 disqus 설정을 <code>_config.yml</code>에서 설정합니다
+
+~~~
+comments:
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  disqus:
+    shortname            : shortname입력 # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+~~~
+
+post 헤더 부분에
+
+~~~
+---
+title:  "jekyll에 댓글기능 추가하기 ft. Disqus"
+tags: [disqus, jekyll, 댓글]
+use_math: true
+comments: true
+---
+~~~
+
+comments: true  추가 후 완료
+
+git push 후 사이트에서 확인
+
+![disqus 설정9](/assets/images/20200729/disqus_setting_09.png)
 
