@@ -6,6 +6,7 @@ date:   2020-04-16 17:40:00 +0900
 categories: posts
 tags: [정렬, 알고리즘, java]
 use_math: true
+comments: true
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/ROalU379l3U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

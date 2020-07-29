@@ -4,6 +4,7 @@ title:  "jekyll minima 테마 블로그에 구글 애널리틱스 적용방법"
 permalink: /:categories/:year/:month/:day/:title/
 date:   2020-03-30 17:00:00 +0900
 categories: posts
+comments: true
 ---
 
 ## 구글 추적ID 받기

@@ -4,6 +4,7 @@ title:  "마크다운 문법 사용법 및 테스트"
 permalink: /:categories/:year/:month/:day/:title/
 date:   2020-03-30 12:00:00 +0900
 categories: posts
+comments: true
 ---
 
 ## 목차

@@ -6,6 +6,7 @@ date:   2020-05-12 12:00:00 +0900
 categories: posts
 tags: [C, C언어, C Primer Plus, C 기초 플러스]
 use_math: true
+comments: true
 ---
 
 [C 기초 플러스](http://www.yes24.com/Product/Goods/57614028){:target="_blank"} 서적으로 C언어를 공부를 하면서 정리해보았습니다.
