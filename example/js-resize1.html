@@ -25,12 +25,15 @@
 </div>
 <script>
     (function() {
-        window.addEventListener('resize', function() {
+        function displaySize() {
             document.getElementById('innerWidth').innerHTML = 'innerWidth(스크롤 포함 가로길이) : ' + window.innerWidth;
             document.getElementById('innerHeight').innerHTML = 'innerHeight(스크롤 포함 세로길이) : ' + window.innerHeight;
             document.getElementById('clientWidth').innerHTML = 'clientWidth(스크롤 제외 가로길이) : ' + document.documentElement.clientWidth;
             document.getElementById('clientHeight').innerHTML = 'clientHeight(스크롤 제외 세로길이) : ' + document.documentElement.clientHeight;
-        });
+        }
+
+        displaySize();
+        window.addEventListener('resize', displaySize);
     })();
 </script>
 </body>
