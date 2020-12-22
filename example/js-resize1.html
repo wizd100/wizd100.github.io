@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    html, body {
+        margin: 0;
+        padding: 0;
+    }
+    #app {
+        height:2000px;
+    }
+</style>
+<div id="app">
+    <h1 id="innerWidth"></h1>
+    <h1 id="innerHeight"></h1>
+    <h1 id="clientWidth"></h1>
+    <h1 id="clientHeight"></h1>
+</div>
+<script>
+    (function() {
+        window.addEventListener('resize', function() {
+            document.getElementById('innerWidth').innerHTML = 'innerWidth(스크롤 포함 가로길이) : ' + window.innerWidth;
+            document.getElementById('innerHeight').innerHTML = 'innerHeight(스크롤 포함 세로길이) : ' + window.innerHeight;
+            document.getElementById('clientWidth').innerHTML = 'clientWidth(스크롤 제외 가로길이) : ' + document.documentElement.clientWidth;
+            document.getElementById('clientHeight').innerHTML = 'clientHeight(스크롤 제외 세로길이) : ' + document.documentElement.clientHeight;
+        });
+    })();
+</script>
+</body>
+</html>
