@@ -3,6 +3,7 @@ title:  "jekyll에 댓글기능 추가하기 ft. Disqus"
 tags: [disqus, jekyll, 댓글]
 use_math: true
 comments: true
+published: false
 ---
 
 ## Disqus란? 

@@ -4,6 +4,7 @@ tags: [정렬, 알고리즘, java]
 use_math: true
 comments: true
 read_time: false
+published: false
 ---
 
 <iframe src="https://www.youtube.com/embed/Ns4TPTC8whw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

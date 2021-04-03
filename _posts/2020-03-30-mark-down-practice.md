@@ -2,6 +2,7 @@
 title:  "마크다운 문법 사용법 및 테스트"
 comments: true
 read_time: false
+published: false
 ---
 
 ## 목차

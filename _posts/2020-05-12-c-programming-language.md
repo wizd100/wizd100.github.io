@@ -3,6 +3,7 @@ title:  "C언어 서문"
 tags: [C, C언어, C Primer Plus, C 기초 플러스]
 use_math: true
 comments: true
+published: false
 ---
 
 [C 기초 플러스](http://www.yes24.com/Product/Goods/57614028){:target="_blank"} 서적으로 C언어를 공부를 하면서 정리해보았습니다.

@@ -2,6 +2,7 @@
 title:  "jekyll minima 테마 블로그에 구글 애널리틱스 적용방법"
 comments: true
 read_time: false
+published: false
 ---
 
 ## 구글 추적ID 받기
