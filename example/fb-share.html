@@ -1,17 +1,18 @@
 <html>
 <head>
-    <title>Your Website Title</title>
+    <title>Welcome</title>
     <!-- You can use Open Graph tags to customize link previews.
     Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
     <meta property="og:url"           content="https://wizd100.github.io/example/fb-share.html" />
     <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="wizd100 github io" />
+    <meta property="og:title"         content="Welcome" />
     <meta property="og:description"   content="facebook share test" />
     <meta property="og:image"         content="https://wizd100.github.io/assets/images/20201228/doge.jpg" />
 </head>
 <body>
 <div>
     <img src="/assets/images/20201228/doge.jpg">
+    <p>facebook share test</p>
 </div>
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
@@ -29,5 +30,51 @@
      data-layout="button_count">
 </div>
 
+<div>
+    <a href="#" onclick="Linksns('', 'facebook', '')">페이스북 공유하기</a>
+</div>
+<script>
+    function Linksns(title, type, navi) {
+
+        var page = "";
+        var url = document.location.href;
+
+        page = url;
+        page = page.split("&").join("%26");
+        page = page.replace("?", "%3F");
+
+        boardPage = document.location + "%26sp=";
+        boardPage = boardPage.replace("?", "%3F");
+        boardPage = boardPage.replace("\&", "%26");
+
+        if (type == 'twitter') {
+
+            var sendUrl = "http://twitter.com/share?url=" + boardPage
+                + encodeURI(page) + "&amp;text="
+                + encodeURIComponent(title);
+
+            window.open(sendUrl);
+
+        } else if (type == 'facebook') {
+
+            var facebookurl = url;
+            facebookurl = facebookurl.split("&").join("^");
+
+            var strShareUrl = "http://www.facebook.com/sharer.php";
+            var strParam = "";
+            var strImageUrl = "https://www.ifans.go.kr/knda/statics/ifans/kor/image/main/fb_share.jpg";
+            strUrl = encodeURIComponent(document.location) + '%26sp='
+                + encodeURIComponent(facebookurl);
+            strTitle = encodeURIComponent(navi);
+            strsummary = encodeURIComponent(title);
+
+            strParam += "?s=100";
+            strParam += "&p[title]=" + strTitle;
+            strParam += "&p[url]=" + strUrl;
+            strParam += "&p[summary]=" + strsummary;
+            window.open(strShareUrl + strParam);
+        }
+    }
+</script>
 </body>
 </html>
