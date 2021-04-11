@@ -10,16 +10,20 @@
 <body>
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-        alert("DOMContentLoaded");
+        console.log("DOMContentLoaded");
     });
 
     window.addEventListener("load", evt => {
-        alert("load");
+        console.log("load");
     });
 
     window.addEventListener("unload", evt => {
-        alert("unload");
+        console.log("unload");
     });
+
+    (function () {
+        console.log('es log');
+    })();
 </script>
 </body>
 </html>
